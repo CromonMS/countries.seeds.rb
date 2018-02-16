@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-# rails g model Country name:string iso_two_letter_code:string
+
+# rails g model Country name:string:index iso_alpha_two:string:index iso_alpha_three:string:index iso_numeric:integer:index
 
 # Create Countries migration
 class CreateCountries < ActiveRecord::Migration
