@@ -7,7 +7,7 @@
 #
 [
   { name: 'Afghanistan', iso_alpha_two: 'AF', iso_alpha_three: 'AFG', iso_numeric: '004' },
-  { name: 'ALA  Aland Islands', iso_alpha_two: 'AX', iso_alpha_three: 'ALA', iso_numeric: '248' },
+  { name: 'Aland Islands', iso_alpha_two: 'AX', iso_alpha_three: 'ALA', iso_numeric: '248' },
   { name: 'Albania', iso_alpha_two: 'AL', iso_alpha_three: 'ALB', iso_numeric: '008' },
   { name: 'Algeria', iso_alpha_two: 'DZ', iso_alpha_three: 'DZA', iso_numeric: '012' },
   { name: 'American Samoa', iso_alpha_two: 'AS', iso_alpha_three: 'ASM', iso_numeric: '016' },
