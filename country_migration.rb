@@ -7,9 +7,12 @@ class CreateCountries < ActiveRecord::Migration
   def change
     create_table :countries do |t|
       t.string :name
+      t.string :official_name
       t.string :iso_alpha_two
       t.string :iso_alpha_three
       t.string :iso_numeric
+      t.string :subdivision_codes
+      t.string :tld
 
       t.timestamps null: false
 
