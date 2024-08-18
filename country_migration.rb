@@ -15,11 +15,11 @@ class CreateCountries < ActiveRecord::Migration
       t.string :tld
 
       t.timestamps null: false
-
-      add_index(:countries, :name)
-      add_index(:countries, :iso_alpha_two)
-      add_index(:countries, :iso_alpha_three)
-      add_index(:countries, :iso_numeric)
     end
+
+    add_index :countries, :name
+    add_index :countries, :iso_alpha_two
+    add_index :countries, :iso_alpha_three
+    add_index :countries, :iso_numeric
   end
 end
