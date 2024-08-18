@@ -11,16 +11,14 @@ class CreateCountries < ActiveRecord::Migration
       t.string :iso_numeric
       t.string :subdivision_codes
       t.string :tld
-      t.string :public_id
       t.string :sovereignty
 
       t.timestamps null: false
     end
 
     add_index :countries, :name, unique: true
-    add_index :countries, :iso_alpha_two, unique: true
-    add_index :countries, :iso_alpha_three, unique: true
-    add_index :countries, :iso_numeric, unique: true
-    add_index :countries, :public_id, unique: true
+    add_index :countries, :iso_alpha_two
+    add_index :countries, :iso_alpha_three
+    add_index :countries, :iso_numeric
   end
 end
