@@ -14,6 +14,12 @@ Copy over your seeds, seed them in your usual way, and viola!
 
 That's it!
 
+Here is a gist with a rake task that will allow you to import these seeds from the file directly:
+
+```
+https://gist.github.com/CromonMS/2edc3ccc254ef9baa34d61252530a566
+```
+
 ## Update Countries List
 
 If there are changes / updates to the country list, you can run the parser to update the seeds file.
